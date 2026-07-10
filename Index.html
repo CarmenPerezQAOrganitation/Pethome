@@ -2,46 +2,44 @@
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetHome | Tu tienda para mascotas</title>
 
+    <title>PetHome | Todo para tu mascota</title>
+
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
-    <!-- HEADER -->
+    <!-- ================= HEADER ================= -->
 
     <header>
 
         <nav>
 
-            <a href="index.html" id="logo">
-                <h1>🐾 PetHome</h1>
+            <a href="index.html" class="logo">
+
+                🐾 PetHome
+
             </a>
 
             <ul>
 
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-
-                <li>
-                    <a href="products.html">Productos</a>
-                </li>
-
-                <li>
-                    <a href="contact.html">Contacto</a>
-                </li>
-
-                <li>
-                    <a href="#">Mi cuenta</a>
-                </li>
-
-                <li>
-                    <a href="#">🛒 Carrito</a>
-                </li>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="products.html">Productos</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="#">Mi cuenta</a></li>
+                <li><a href="#">🛒 Carrito</a></li>
 
             </ul>
 
@@ -49,132 +47,201 @@
 
     </header>
 
-    <!-- HERO -->
+    <!-- ================= HERO ================= -->
 
-    <main>
+    <section class="hero">
 
-        <section id="hero">
+        <div class="hero-content">
 
-            <h2>Todo para el bienestar de tu mascota</h2>
+            <span class="hero-badge">
+
+                🩷 Todo para tu mejor amigo
+
+            </span>
+
+            <h1>
+
+                Todo para el bienestar de tu mascota
+
+            </h1>
 
             <p>
-                Alimentación, juguetes, accesorios y mucho más para perros,
-                gatos, pájaros, peces y pequeños animales.
+
+                Alimentación, juguetes, camas, transportines y accesorios para
+                perros, gatos, pájaros, peces y pequeños animales.
+
             </p>
 
-            <a href="products.html">
-                <button>Ver productos</button>
-            </a>
+            <div class="hero-buttons">
 
-        </section>
+                <a href="products.html" class="btn">
 
-        <!-- CATEGORÍAS -->
+                    Comprar ahora
 
-        <section id="categorias">
+                </a>
 
-            <h2>Categorías</h2>
+                <a href="products.html" class="btn btn-secondary">
 
-            <div class="cards">
+                    Ver productos
 
-                <article class="categoria">
-
-                    <h3>🐶 Perros</h3>
-
-                    <p>Piensos, juguetes y accesorios.</p>
-
-                </article>
-
-                <article class="categoria">
-
-                    <h3>🐱 Gatos</h3>
-
-                    <p>Todo para tu felino.</p>
-
-                </article>
-
-                <article class="categoria">
-
-                    <h3>🐦 Pájaros</h3>
-
-                    <p>Jaulas y alimentación.</p>
-
-                </article>
-
-                <article class="categoria">
-
-                    <h3>🐠 Peces</h3>
-
-                    <p>Acuarios y accesorios.</p>
-
-                </article>
-
-                <article class="categoria">
-
-                    <h3>🐹 Roedores</h3>
-
-                    <p>Todo para pequeños animales.</p>
-
-                </article>
+                </a>
 
             </div>
 
-        </section>
+        </div>
 
-        <!-- PRODUCTOS DESTACADOS -->
+    </section>
 
-        <section id="destacados">
+    <!-- ================= CATEGORÍAS ================= -->
 
-            <h2>Productos destacados</h2>
+    <section class="categories">
 
-            <div id="featured-products">
+        <h2>
 
-                <!-- JavaScript insertará aquí los productos -->
+            Categorías
 
-            </div>
+        </h2>
 
-        </section>
+        <div class="category-grid">
 
-        <!-- NEWSLETTER -->
+            <article class="category-card">
 
-        <section id="newsletter">
+                <div class="emoji">🐶</div>
 
-            <h2>Suscríbete a nuestra newsletter</h2>
+                <h3>Perros</h3>
+
+                <p>
+
+                    Piensos, juguetes, camas y accesorios.
+
+                </p>
+
+            </article>
+
+            <article class="category-card">
+
+                <div class="emoji">🐱</div>
+
+                <h3>Gatos</h3>
+
+                <p>
+
+                    Todo para consentir a tu felino.
+
+                </p>
+
+            </article>
+
+            <article class="category-card">
+
+                <div class="emoji">🐦</div>
+
+                <h3>Pájaros</h3>
+
+                <p>
+
+                    Jaulas, comida y juguetes.
+
+                </p>
+
+            </article>
+
+            <article class="category-card">
+
+                <div class="emoji">🐠</div>
+
+                <h3>Peces</h3>
+
+                <p>
+
+                    Acuarios, filtros y decoración.
+
+                </p>
+
+            </article>
+
+            <article class="category-card">
+
+                <div class="emoji">🐹</div>
+
+                <h3>Roedores</h3>
+
+                <p>
+
+                    Todo para pequeños animales.
+
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PRODUCTOS ================= -->
+
+    <section class="featured-products">
+
+        <h2>
+
+            Productos destacados
+
+        </h2>
+
+        <div id="featured-products">
+
+            <!-- main.js añadirá aquí los productos -->
+
+        </div>
+
+    </section>
+
+    <!-- ================= NEWSLETTER ================= -->
+
+    <section class="newsletter">
+
+        <div class="newsletter-box">
+
+            <h2>
+
+                💌 Únete a PetHome
+
+            </h2>
 
             <p>
-                Recibe ofertas y novedades para tu mascota.
+
+                Suscríbete y recibe descuentos exclusivos para tu mascota.
+
             </p>
 
             <form>
 
-                <label for="newsletter-email">
-                    Correo electrónico
-                </label>
-
                 <input
                     type="email"
-                    id="newsletter-email"
-                    placeholder="correo@ejemplo.com">
+                    placeholder="Correo electrónico">
 
-                <button>
-                    Suscribirse
+                <button
+                    type="submit"
+                    class="btn">
+
+                    Suscribirme
+
                 </button>
 
             </form>
 
-        </section>
+        </div>
 
-    </main>
+    </section>
 
-    <!-- FOOTER -->
+    <!-- ================= FOOTER ================= -->
 
     <footer>
 
         <p>
-            © 2026 PetHome.
-        </p>
 
-        <p>
-            Proyecto creado para practicar QA Manual y QA Automation.
+            © 2026 PetHome · Hecho con 🩷 para los amantes de los animales.
+
         </p>
 
     </footer>
