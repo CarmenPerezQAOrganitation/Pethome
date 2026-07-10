@@ -1,0 +1,428 @@
+/* ===========================
+   RESET
+=========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f9f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+header {
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    text-decoration: none;
+    color: #2e7d32;
+}
+
+#logo h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: #43a047;
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+#hero {
+
+    background: linear-gradient(135deg,#43a047,#81c784);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 90px 20px;
+
+}
+
+#hero h2 {
+
+    font-size: 3rem;
+
+    margin-bottom: 20px;
+
+}
+
+#hero p {
+
+    max-width: 700px;
+
+    margin: auto;
+
+    font-size: 1.2rem;
+
+}
+
+#hero button {
+
+    margin-top:40px;
+
+    padding:15px 35px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:white;
+
+    color:#2e7d32;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+#hero button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+
+}
+
+/* ===========================
+   SECCIONES
+=========================== */
+
+section{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:70px 20px;
+
+}
+
+section h2{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+    color:#2e7d32;
+
+    font-size:2rem;
+
+}
+
+/* ===========================
+   CATEGORÍAS
+=========================== */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+
+    gap:25px;
+
+}
+
+.categoria{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.categoria:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.categoria h3{
+
+    font-size:1.5rem;
+
+    margin-bottom:15px;
+
+}
+
+/* ===========================
+   PRODUCTOS DESTACADOS
+=========================== */
+
+#featured-products{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+}
+
+/* Cada tarjeta la creará JavaScript */
+
+.product-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.product-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.product-info{
+
+    padding:20px;
+
+}
+
+.product-info h3{
+
+    margin-bottom:10px;
+
+}
+
+.price{
+
+    color:#2e7d32;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+}
+
+.btn{
+
+    width:100%;
+
+    margin-top:20px;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#43a047;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#2e7d32;
+
+}
+
+/* ===========================
+   NEWSLETTER
+=========================== */
+
+#newsletter{
+
+    background:white;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    margin-bottom:70px;
+
+}
+
+#newsletter p{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+#newsletter form{
+
+    max-width:600px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+#newsletter input{
+
+    padding:15px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+}
+
+#newsletter button{
+
+    padding:15px;
+
+    border:none;
+
+    background:#43a047;
+
+    color:white;
+
+    border-radius:8px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+}
+
+#newsletter button:hover{
+
+    background:#2e7d32;
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    background:#2e7d32;
+
+    color:white;
+
+    text-align:center;
+
+    padding:35px;
+
+}
+
+footer p{
+
+    margin:8px 0;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+    nav{
+
+        flex-direction:column;
+
+        gap:20px;
+
+    }
+
+    nav ul{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    #hero h2{
+
+        font-size:2rem;
+
+    }
+
+    #hero p{
+
+        font-size:1rem;
+
+    }
+
+}

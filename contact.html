@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | PetHome</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <nav>
+
+        <a href="index.html" id="logo">
+            <h1>🐾 PetHome</h1>
+        </a>
+
+        <ul>
+
+            <li><a href="index.html">Inicio</a></li>
+
+            <li><a href="products.html">Productos</a></li>
+
+            <li><a href="contact.html">Contacto</a></li>
+
+            <li><a href="#">Mi Cuenta</a></li>
+
+            <li><a href="#">🛒 Carrito</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<main>
+
+<section id="contact">
+
+    <h2>Contacto</h2>
+
+    <p>
+        ¿Tienes alguna duda sobre nuestros productos?
+        Estaremos encantados de ayudarte.
+    </p>
+
+    <form id="contact-form">
+
+        <div>
+
+            <label for="name">
+                Nombre *
+            </label>
+
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Introduce tu nombre"
+                required>
+
+        </div>
+
+        <div>
+
+            <label for="email">
+                Email *
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="ejemplo@email.com"
+                required>
+
+        </div>
+
+        <div>
+
+            <label for="phone">
+                Teléfono
+            </label>
+
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+34 600123123">
+
+        </div>
+
+        <div>
+
+            <label for="subject">
+                Asunto
+            </label>
+
+            <select id="subject">
+
+                <option value="">Selecciona una opción</option>
+
+                <option>Pedido</option>
+
+                <option>Devolución</option>
+
+                <option>Información</option>
+
+                <option>Incidencia</option>
+
+            </select>
+
+        </div>
+
+        <div>
+
+            <label for="message">
+                Mensaje *
+            </label>
+
+            <textarea
+                id="message"
+                rows="8"
+                maxlength="500"
+                placeholder="Escribe aquí tu mensaje..."
+                required></textarea>
+
+            <small id="contador">
+                0 / 500 caracteres
+            </small>
+
+        </div>
+
+        <button type="submit" class="btn">
+
+            Enviar mensaje
+
+        </button>
+
+    </form>
+
+    <div id="success-message" style="display:none;">
+
+        <h3>✅ Mensaje enviado correctamente</h3>
+
+        <p>
+            Gracias por contactar con PetHome.
+            Te responderemos lo antes posible.
+        </p>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+
+    <p>© 2026 PetHome</p>
+
+    <p>Proyecto para practicar QA Manual y QA Automation.</p>
+
+</footer>
+
+<script src="js/contact.js"></script>
+
+</body>
+
+</html>

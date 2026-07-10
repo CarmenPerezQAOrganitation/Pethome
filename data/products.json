@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Pienso Acana Puppy",
+    "category": "Perros",
+    "price": 49.95,
+    "stock": 15,
+    "brand": "Acana",
+    "description": "Pienso premium para cachorros de todas las razas.",
+    "image": "acana-puppy.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Collar Antiparasitario Seresto",
+    "category": "Perros",
+    "price": 32.99,
+    "stock": 24,
+    "brand": "Seresto",
+    "description": "Protección contra pulgas y garrapatas durante 8 meses.",
+    "image": "seresto.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pelota Kong Classic",
+    "category": "Perros",
+    "price": 14.99,
+    "stock": 50,
+    "brand": "Kong",
+    "description": "Juguete resistente para perros.",
+    "image": "kong-classic.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Arena Catsan Higiene",
+    "category": "Gatos",
+    "price": 9.95,
+    "stock": 42,
+    "brand": "Catsan",
+    "description": "Arena absorbente para gatos.",
+    "image": "catsan.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Rascador Árbol Deluxe",
+    "category": "Gatos",
+    "price": 79.99,
+    "stock": 8,
+    "brand": "Trixie",
+    "description": "Rascador con varias alturas y refugio.",
+    "image": "rascador.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Comedero Automático",
+    "category": "Gatos",
+    "price": 54.90,
+    "stock": 12,
+    "brand": "Petkit",
+    "description": "Dispensador automático de comida.",
+    "image": "comedero.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Jaula Vision M01",
+    "category": "Pájaros",
+    "price": 68.00,
+    "stock": 6,
+    "brand": "Vision",
+    "description": "Jaula para periquitos y canarios.",
+    "image": "jaula.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Mezcla Premium Canarios",
+    "category": "Pájaros",
+    "price": 7.50,
+    "stock": 28,
+    "brand": "Versele Laga",
+    "description": "Alimento completo para canarios.",
+    "image": "canarios.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Filtro Fluval C3",
+    "category": "Peces",
+    "price": 45.99,
+    "stock": 10,
+    "brand": "Fluval",
+    "description": "Filtro para acuarios de agua dulce.",
+    "image": "fluval.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Acuario Starter 60L",
+    "category": "Peces",
+    "price": 119.99,
+    "stock": 4,
+    "brand": "Aquatlantis",
+    "description": "Kit completo para iniciarse en acuariofilia.",
+    "image": "acuario.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Heno Timothy Premium",
+    "category": "Roedores",
+    "price": 12.99,
+    "stock": 30,
+    "brand": "Oxbow",
+    "description": "Heno natural para conejos e indias.",
+    "image": "heno.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Bebedero Hamster 250ml",
+    "category": "Roedores",
+    "price": 5.99,
+    "stock": 45,
+    "brand": "Ferplast",
+    "description": "Bebedero antigoteo para pequeños roedores.",
+    "image": "bebedero.jpg"
+  }
+]
