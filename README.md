@@ -4,6 +4,8 @@ Proyecto personal para practicar **QA Manual** y **QA Automation**.
 
 PetHome es una tienda online ficticia de productos para mascotas creada con el objetivo de simular un proyecto real sobre el que realizar pruebas manuales y automatizadas.
 
+🔗 [Ver Web Portfolio QA](https://carmenperezqaorganitation.github.io/Pethome/)
+
 ## 🎯 Objetivos
 
 Este proyecto permite practicar todo el ciclo de trabajo de un QA:
